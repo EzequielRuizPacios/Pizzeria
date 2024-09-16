@@ -26,3 +26,11 @@ body {
   height: 140px;
   overflow-y: auto;
 }
+
+footer {
+  padding-left: 10px;
+}
+
+.cardContainer {
+margin-left: 20px;
+}
