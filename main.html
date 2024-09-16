@@ -17,7 +17,7 @@
     <img
       class="companyLogo"
       id="companyLogo"
-      src="resources/images/fondo.jpg"
+      src="resources/images/ui/icono.png"
     />
   </header>
   <body class="bg-light font-monospace">
@@ -31,22 +31,26 @@
         <a class="nav-link" href="#bg-menu">Menú</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Servicios</a>
+        <a class="nav-link" href="#Empleados">Sobre nosotros</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Sobre nosotros</a>
+        <a class="nav-link" href="#">Servicios</a>
       </li>
     </ul>
 
-    <div class="menuContainer" id="bg-menu"></div>
-
-    <div class="cardContainer">
+    <div
+      class="menuContainer text-center fs-2 text-warning bg-dark mt-2"
+      id="bg-menu"
+    >
+      Menú
+    </div>
+    <div class="cardContainer mb-2">
       <div class="row g-0">
         <!-- Pizza 1 -->
         <div class="col-4">
           <div class="card border border-2 border-dark" style="width: 20rem">
             <img
-              src="resources/images/pizza-h-1.jpg"
+              src="resources/images/pizzas/pizza-h-1.jpg"
               class="card-img-top"
               alt="..."
             />
@@ -93,7 +97,7 @@
         <div class="col-4">
           <div class="card border border-2 border-dark" style="width: 20rem">
             <img
-              src="resources/images/pizza-h-2.jpg"
+              src="resources/images/pizzas/pizza-h-2.jpg"
               class="card-img-top"
               alt="..."
             />
@@ -140,7 +144,7 @@
         <div class="col-4">
           <div class="card border border-2 border-dark" style="width: 20rem">
             <img
-              src="resources/images/pizza-h-3.jpg"
+              src="resources/images/pizzas/pizza-h-3.jpg"
               class="card-img-top"
               alt="..."
             />
@@ -184,6 +188,102 @@
         </div>
       </div>
     </div>
+
+    <p class="text-center fs-2 bg-warning" id="Empleados">Conócenos</p>
+
+    <!-- Empleados -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="resources/images/employees/Milagros.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="text-warning fw-bold">Milagros Gosen</h5>
+            <p class="text-warning fw-bold">CEO</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="resources/images/employees/Ezequiel.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="text-warning fw-bold">Ezequiel Ruiz Pacios</h5>
+            <p class="text-warning fw-bold">Gerente</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="resources/images/employees/chef.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="text-warning fw-bold">Susana Horia</h5>
+            <p class="text-warning fw-bold">Chef principal</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <footer class="bg-dark text-primary">
+      <a href="https://www.instagram.com/crearte_bbca/">Instagram</a>
+    </br>
+      <a href="https://www.youtube.com">Youtube</a>
+      <ul>
+        <li>
+          <p>Estomba 1122</p>
+        </li>
+        <li>
+          <p>Celular: 2914444444</p>
+        </li>
+      </ul>
+      Todos los derechos reservados 2024.
+    </footer>
 
     <script src="main.js"></script>
     <script

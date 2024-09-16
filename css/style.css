@@ -1,24 +1,28 @@
+body {
+  height: 1600px;
+}
+
 .companyLogo {
-    height: 300px;
-    width: 100%;
+  height: 300px;
+  width: 100%;
 }
 
 .nav-link {
-    color: black;
+  color: black;
 }
 
 .nav-link:hover {
-    text-decoration: underline;
-    font-weight: bold;
-    font-size: 1.2rem;
-    background-color: rgb(180, 180, 180);
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 1.2rem;
+  background-color: rgb(180, 180, 180);
 }
 
 #bg-menu {
-    height: 50px;
+  height: 50px;
 }
 
 .card-body {
-    height: 140px;
-    overflow-y: auto;
-  }
+  height: 140px;
+  overflow-y: auto;
+}
