@@ -34,7 +34,7 @@
         <a class="nav-link" href="#Empleados">Sobre nosotros</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Servicios</a>
+        <a class="nav-link" href="#ServicioForm">Servicios</a>
       </li>
     </ul>
 
@@ -316,7 +316,37 @@
       </button>
     </div>
 
-    <footer class="bg-dark text-primary">
+    <!-- Servicios -->
+    <div>
+      <p class="text-center bg-warning fw-bold fs-2 mb-2 mt-2">
+        ¿Tenés alguna pregunta o queres reservar un dia especial? Anotáte!!!
+      </p>
+    </div>
+
+    <div class="mb-3 p-2" id="ServicioForm">
+      <label for="exampleFormControlInput1" class="form-label">Email</label>
+      <input
+        type="email"
+        class="form-control"
+        id="exampleFormControlInput1"
+        placeholder="name@example.com"
+      />
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label p-2"
+        >Consulta</label
+      >
+      <textarea
+        class="form-control"
+        id="exampleFormControlTextarea1"
+        rows="3"
+      ></textarea>
+      <div class="col-auto">
+        <button type="submit" class="btn btn-primary mb-3">Enviar</button>
+      </div>
+    </div>
+
+    <footer class="bg-dark text-primary mt-2">
       <div class="container">
         <div class="row">
           <div class="col-4">
